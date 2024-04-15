@@ -49,7 +49,7 @@ export default function Hero() {
 
   return (
     <div
-      className="w-full h-screen bg-cover bg-center flex flex-row t items-center justify-center text-center cover font-mono bg-no-repeat"
+      className={`w-full h-screen bg-cover  lg:bg-center flex flex-row t items-center justify-center text-center cover font-mono bg-no-repeat`}
       style={{
         backgroundImage:
           'url("https://www.studiomemorylane.com/wp-content/uploads/2019/06/Ethnic-Punjabi-wedding-couple-photography.jpg")',
@@ -59,14 +59,22 @@ export default function Hero() {
       <div className="lg:w-[50vw] lg:h-[50vh]">
         
       </div>
-      <div>
-        <p className="text-[#dbbf96] font-[poppins] text-7xl  drop-shadow-[0_4.2px_4.2px_rgba(0,0,0,0.8)] outline-8 outline-zinc-700 ">Kashi Event & Caterers</p>
-      <h1 className="text-white text-clip font-[poppins] text-5xl ">{``} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Shadi", "Anniversary", "Birthday" ]'><span className="wrap">{text}</span></span></h1>
+      <div className="flex-row lg:h-[30vh] h-[78vh] ">
+        <div>
+        <p className="text-[#dbbf96] font-[poppins]  text-5xl lg:text-7xl bg-[#a70707]   drop-shadow-[0_4.2px_4.2px_rgba(0,0,0,0.8)] outline-8 outline-zinc-700 ">Kashi Event & Caterers</p>
+        
+        </div>
+        <div className="h-[40vh] lg:h-[0]"></div>
+        <div className=" items-end justify-items-end h-[60vh]">
+        <h1 className="text-white text-clip font-[poppins] bg-[#aa9c66] text-5xl inline-block ">{``} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Shadi", "Anniversary", "Birthday" ]'><span className="wrap">{text}</span></span></h1>
         <div className="lg:w-[50vw] lg:items-center lg:justify-center lg:flex p-1" >
-        <p className="text-white lg:w-[30vw] text-center text-2xl  ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, libero.</p>
+        <p className="text-white lg:w-[30vw] text-center text-xl lg:text-2xl  ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, libero.</p>
         </div>
         
         <Link to="/contact" className={`bg-gradient-to-r py-2 px-3 to-[#aa9c66]  from-[#584D3C]  text-decoration-none  text-white rounded-2xl  text-lg`}>Contact Us</Link>
+        </div>
+        
+     
       </div>
     </div>
   );
