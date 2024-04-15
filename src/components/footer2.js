@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="bg-black/95">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
-          <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000" mirror="false" className="mb-10 md:mb-0">
+          <div  className="mb-10 md:mb-0">
             <Link to="/" onClick={scrollToTop}  className="flex items-center mb-10 no-underline">
               <img
                 src="logo192.png"
@@ -20,12 +20,12 @@ export default function Footer() {
                 loading="lazy"
               /><span className="no-underline text-red-500 mt-8 text-2xl no-underline">Kashi Event & Caterers</span>
             </Link>
-            <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000" mirror="false" className="text-sm flex mt-4 justify-end sm:mt-0 text-gray-200 flex-col ">
+            <div  className="text-sm flex mt-4 justify-end sm:mt-0 text-gray-200 flex-col ">
               <p className="text-lg text-blue-400 font-medium h  lg:mt- w[screen] lg:pr-16 lg:w-[35vw]"><span className="text-red-600">Kashi Event & Caterers</span> offers cutting-edge, eco-friendly packaging solutions. Specializing in biodegradable, compostable, and recyclable products, we help brands align with environmental responsibility for a sustainable future.</p>
               
             </div>
           </div>
-          <div  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000" mirror="false" className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div  className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibol uppercase text-white">
                 Quick Links
