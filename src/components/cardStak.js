@@ -6,12 +6,12 @@ export default function CardStak() {
   return (
     <>
     <div className='flex flex-wrap  flex-center item-center justify-center '>
-        <Card title="WEDDINGS & CELEBRATIONS" img="wedding.jpeg"/>
+        <Card title="WEDDINGS" img="wedding.jpeg"/>
         <Card title="CORPORATE EVENTS" img="corporate.jpeg" />
         <Card title="HERITAGE GETAWAYS" img="haritage1.jpeg"/>
-        <Card title="CULTURAL FESTS & SCREENINGS" img=  'fest1.jpeg' />
+        <Card title="CULTURAL FESTS" img=  'fest1.jpeg' />
         <Card title="PICTURE-PERFECT  LOCATION" img="pictureperfect.jpeg" />
-        <Card title="ART EXHIBITIONS & TRADE SHOWS" img="artex.webp" />
+        <Card title="ART EXHIBITIONS " img="artex.webp" />
     </div>
     </>
   )

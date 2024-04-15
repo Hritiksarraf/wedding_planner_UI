@@ -9,6 +9,7 @@ import Gallery from "./pages/gallery.js";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 
+
 function App() {
   return (
   <>

@@ -14,17 +14,20 @@ import Home from './pages/home';
 import About_us from './pages/about_us';
 import Gallery from './pages/gallery';
 import Events from './pages/Events';
+
 import Our_work from './pages/our_work';
+
 import Contact from './pages/contact';
+import { ThemeProvider } from "@material-tailwind/react";
 
 const router =createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>}>
       <Route path='/' element={<Home/>}/>
-      <Route path='/about_us' element={<Home/>}/>
+      <Route path='/about_us' element={<About_us/>}/>
       <Route path='/gallery' element={<Gallery/>}/>
       <Route path='/events' element={<Events/>}/>
-      <Route path='/our_work' element={<Home/>}/>
+      <Route path='/our_work' element={<Our_work/>}/>
       <Route path='/contact' element={<Contact/>}/>
       
 
@@ -35,7 +38,9 @@ const router =createBrowserRouter(
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ThemeProvider>
     <RouterProvider router={router} />
+    </ThemeProvider>
   </React.StrictMode>
 );
 
