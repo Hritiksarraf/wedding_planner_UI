@@ -103,7 +103,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <p  className="hover:underline pt-2">
-                 Koat bazar,Sitamarhi
+                 AGB layout, Bangalore
                   </p>
                 </li>
               </ul>

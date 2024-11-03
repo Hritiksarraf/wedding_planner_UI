@@ -19,8 +19,8 @@ export default function contact_us() {
           <div className="flex border-yellow-900  flex-col items-center whitespace-nowrap lg:border-r h-48 w-80 p-5">
             <i class="fa-solid text-yellow-900 mb-4 fa-2xl fa-location-dot"></i>
             <p className="text-yellow-900">Location</p>
-            <p>Ward no-16, Koat bazar,</p>
-            <p>Behind khemka hospital,sitamarhi</p>
+            <p>5th cross, #277 </p>
+            <p>AGB layout , Bangalore</p>
           </div>
           <div className="flex flex-col items-center  h-48 p-5">
             <i class="fa-regular mb-4 text-yellow-900 fa-2xl fa-clock"></i>
